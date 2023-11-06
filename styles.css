@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url('calcibg.jpg');
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #794c78;
+    border: 1px solid #780ec5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: aqua;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    color: rgb(213, 106, 30);
+}
